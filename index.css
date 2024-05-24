@@ -1,0 +1,209 @@
+ 
+ * 
+ {
+    margin: 0px;
+    padding: 0px
+}
+    body 
+{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+}  
+body 
+{   margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    box-sizing: content-box;
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+} 
+.mainContainer 
+{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin: 0px; 
+  
+
+}   
+.one 
+{
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+} 
+.two 
+{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+.spanner 
+{
+    color: purple;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    background: linear-gradient(45deg,violet,purple); 
+   
+    border-radius: 30px;
+    border-top-left-radius: 1px; 
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 10px;
+} 
+.one 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.sign 
+{ 
+    border-radius: 3px;
+    padding: 3% ;
+    height: 10%;
+    width: 70%;
+    text-align: center;
+} 
+.signOne 
+{
+    background-color:rgba(34, 0, 255, 0.95) ;
+    
+} 
+.signTwo 
+{
+    background-color: rgb(0, 200, 255);
+} 
+.signThree 
+{
+    background-color: red;
+}  
+.signature 
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signature>* 
+{
+    margin-top: 10px;
+}  
+
+.login 
+{
+    color: blue;
+} 
+.forget 
+{
+    color: blue;
+} 
+.two>* 
+{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.twoTwo 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.twoTwo>* 
+{
+    margin: 5% 5%;
+} 
+.twoThree 
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    font-size: 15px; 
+
+}  
+.remember 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.bottom 
+{  
+    width: 100%;
+}
+.bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 100%; 
+    height: 10vh;
+    border-radius: 10px;
+    
+}  
+.loginCredentials 
+{
+    padding: 5% 10%;
+    border-radius: 4%;
+    background-color: blue;
+    color: white;
+} 
+.eyes 
+{
+    display: flex;
+    
+} 
+.fa-eye 
+{
+    font-size: 10px;
+    position: relative; 
+    right: 30px;
+}
+
+@media (min-width: 720px) { 
+  .mainContainer 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+  }  
+ 
+  .twoThree>*
+  {
+  margin: 0 20px;
+  }
+} 
+.feedss
+{
+    height: 30px;
+    width: 170px;
+    
+    border: none;
+    outline: none; 
+border-bottom: 1px solid black;  
+border-radius: none;
+}
